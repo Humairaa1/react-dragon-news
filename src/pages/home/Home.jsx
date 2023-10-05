@@ -1,3 +1,4 @@
+import BreakingNews from "../../shared/breakingNews/BreakingNews";
 import Header from "../../shared/header/Header";
 import LeftSideNav from "../../shared/leftSideNav/LeftSideNav";
 import Navbar from "../../shared/navbar/Navbar";
@@ -7,6 +8,7 @@ const Home = () => {
     return (
         <div className="font-poppins max-w-6xl mx-auto">
             <Header></Header>
+            <BreakingNews></BreakingNews>
             <Navbar></Navbar>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
