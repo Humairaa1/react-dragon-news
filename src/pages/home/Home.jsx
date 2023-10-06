@@ -6,7 +6,7 @@ import RightSideNav from "../../shared/rightSideNav/RightSideNav";
 
 const Home = () => {
     return (
-        <div className="font-poppins max-w-6xl mx-auto mb-20">
+        <div className=" mb-20">
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
