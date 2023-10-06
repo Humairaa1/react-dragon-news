@@ -6,12 +6,12 @@ import RightSideNav from "../../shared/rightSideNav/RightSideNav";
 
 const Home = () => {
     return (
-        <div className="font-poppins max-w-6xl mx-auto">
+        <div className="font-poppins max-w-6xl mx-auto mb-20">
             <Header></Header>
             <BreakingNews></BreakingNews>
             <Navbar></Navbar>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 mt-20">
             <div>
                 <LeftSideNav></LeftSideNav>
             </div>
